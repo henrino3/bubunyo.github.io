@@ -72,6 +72,10 @@ footer{
 	/*background-color: #34495e;*/
 }
 
+.full-height{
+  height:100vh;
+}
+
 /*.tags {
   list-style: none;
   margin: 0;
