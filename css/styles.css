@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6{
 .main{
 	margin-top: 10px;
 	margin-bottom: 10px;
+  margin-right: 100px;
 }
 .sticky{
 	margin-top: 80px;
@@ -73,8 +74,51 @@ footer{
 }
 
 .full-height{
-  height:100vh;
+  height:100%;
 }
+
+.scroll-down{
+  width: 70px;
+  height: auto;
+  opacity: 0.3;
+}
+
+.navigation{
+    top: 0%;
+  left: 100%;
+  /*margin-top: -100px;*/
+  margin-left: -60px;
+  width: 50px;
+  /*background-color: #F00;*/
+  position: fixed;
+  height: 100%;
+
+}​
+
+.btm{
+  bottom: 0px;
+}
+.v-center{
+  margin-top: 100%;
+}
+
+.nav-section img{
+  /*background: url("img/section.png");*/
+  width: 30px;
+  height: 30px;
+  opacity: 0.2;
+  margin-top: 10px;
+}
+.nav-section img:hover{
+  /*background: url("img/section_hover.png");*/ 
+  opacity: 0.5;
+}
+
+/*.scroll-down:hover{
+  width: 100px;
+  height: auto;
+  opacity: 1;
+}*/
 
 /*.tags {
   list-style: none;
