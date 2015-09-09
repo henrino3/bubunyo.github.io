@@ -49,6 +49,7 @@ h1,h2,h3,h4,h5,h6{
 
 .top-border{
   border-top: 1px solid;
+      padding-top: 100px;
 }
 section {
 	padding-left: 20px;

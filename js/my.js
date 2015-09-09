@@ -14,6 +14,9 @@
             "an eminem lover",
             "a gamer",
             "eit@mest"],
-            typeSpeed: 1
+            typeSpeed: 1,
+            loop: true,
+            // character for cursor
+            cursorChar: "<",
         });
     });
