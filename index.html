@@ -1,7 +1,16 @@
 <html>
 <head>
+	<meta charset="UTF-8">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+
+	<link href="css/timeline.css" rel="stylesheet">
+	<link href="css/aware.css" rel="stylesheet">
+	<link href="css/progress.css" rel="stylesheet">
 	<link href="css/hover.min.css" rel="stylesheet">
+	<link href="css/hint.css" rel="stylesheet">
+	<link href="css/social.css" rel="stylesheet">
+	<link href="css/tagcloud.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 	<title>SamNyavor</title>
 
@@ -10,13 +19,14 @@
 	<script src="js/typed.min.js"></script>
 	<script src="js/my.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 	<div class="container main">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<!-- head section start-->
-				<section class="sticky">
+				<section class="sticky there">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<!-- <div class="centered">
@@ -35,6 +45,16 @@
 							</div>
 						</div>
 					</div>
+					<div class="row">
+						<div class="social">
+							<a href="#"><span>Facebook</span></a>
+							<a href="#"><span>Twitter</span></a>
+							<a href="#"><span>Google+</span></a>
+							<a href="#"><span>Github</span></a>
+							<a href="#"><span>Dribbble</span></a>
+							<a href="#"><span>CodePen</span></a>
+						</div>
+					</div>
 					<!-- <div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
 							<div class="centered">
@@ -50,13 +70,13 @@
 
 				<!-- profile -->
 				<div class="">
-					<section class="full-height">
+					<section class="full-height sticky">
 						<div class="row">
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 								<h1>Profile</h1>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row nice oswald">
 							<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 								Born Ghanaian, but a citizen of the world.
 								Computer Engineer by Education, but a student oflife. A lover, a fighter, a believer, a musician, an adventurer, a traveller, a story teller, and a tech geek.
@@ -65,275 +85,347 @@
 
 								<h4>Details</h4> 
 								Fullname: Samuel Nyavor
-								<br/>
-								Age: 22 yrs
 								<br>
 								Nationality: Ghanaian
 							</div>
 							<div class="col-lg-4 cl-md-4 col-sm-12 col-xs-12">
-								<img class="img-responsive text-center" src="img/cat.jpg" alt="me">
+								<img class="img-responsive text-center" src="img/me.jpg" alt="me">
 							</div>
 						</div>
 						<div class="btm">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-hidden col-xs-hidden text-center">
+									<img  class="scroll-down hvr-grow" src="img/scroll_down.png" alt="Scroll Down">
+								</div>
+							</div>
+						</div>
+
+					</section>
+					<!-- profile ends -->
+
+
+					<!-- skills starts -->
+					<section class="top-border">
+
 						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-hidden col-xs-hidden text-center">
-								<img  class="scroll-down hvr-grow" src="img/scroll_down.png" alt="Scroll Down">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<h1>Skills</h1>
 							</div>
 						</div>
+
+
+						<div class="row gapping">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<h2>Personal Skills</h2> 
+							</div>
+						</div>
+						<div class="row text-center">
+							<div class="col-md-3 no-side-padding">
+
+								<div class="progress-radial progress-77"><b class="down"><span class="medium-font oswald"></span></b></div>
+								<h3 class="up-there">Research</h3>
+							</div>
+
+							<div class="col-md-3 no-side-padding">
+								<div class="progress-radial progress-81"><b><span class="medium-font oswald"></span></b>
+								</div>
+								<h3 class="up-there">Comm Skills</h3>
+							</div>
+
+
+							<div class="col-md-3 no-side-padding">
+
+								<div class="progress-radial progress-84"><b><span class="medium-font oswald"></span></b></div>
+								<h3 class="up-there">Creativity</h3>
+							</div>
+
+
+							<div class="col-md-3 no-side-padding">
+
+								<div class="progress-radial progress-94"><b><span class="medium-font oswald"></span></b></div>
+								<h3 class="up-there">Analytical skills</h3>
+							</div>
 						</div>
 
-						</section>
-						<!-- profile ends -->
+
+						<div class="row gapping">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<h2>Professional Skills</h2> 
+							</div>
+						</div>
 
 
-						<!-- skills starts -->
-						<section>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h1>Skills</h1>
+						<div class="row text-center">
+							<div class="col-md-3 no-side-padding">
+
+								<div class="progress-radial progress-74"><b class="down"><span class="medium-font oswald"></span></b></div>
+								<h3 class="up-there">Front End</h3>
+							</div>
+
+							<div class="col-md-3 no-side-padding">
+								<div class="progress-radial progress-76"><b><span class="medium-font oswald"></span></b>
+								</div>
+								<h3 class="up-there">Backend</h3>
+							</div>
+
+
+							<div class="col-md-3 no-side-padding">
+
+								<div class="progress-radial progress-84"><b><span class="medium-font oswald"></span></b></div>
+								<h3 class="up-there">UX/UI</h3>
+							</div>
+
+
+							<div class="col-md-3 no-side-padding">
+
+								<div class="progress-radial progress-63"><b><span class="medium-font oswald"></span></b></div>
+								<h3 class="up-there">Mobile</h3>
+							</div>
+						</div>
+					</section>
+					<!-- skills ends -->
+
+
+					<!-- interests st/arts -->
+					<section class="top-border">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<h1>Interests</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="tagCloud oswald">
+									<span>Technology</span>
+									<span>Cars</span>
+									<span>Computers</span>
+									<span>Soccer</span>
+									<span>Programming</span>
+									<span>Girls</span>
+									<span>Party</span>
+									<span>Reading</span>
+									<span>Swimming</span>
+									<span>Embedded System</span>
+									<span>Entrepreneorship</span>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h4>Personal Skills</h4> 
-								</div>
+						</div>
+					</section>
+					<!-- interests end -->
+					<section id="timeline" class="top-border">
+					<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<h1>Background</h1>
 							</div>
-							<div class="row text-center">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div>
-										<span class="big-font oswald">77%</span>
-										<span class="medium-font oswald">Research</span>
-
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div>
-										<span class="big-font oswald">84%</span>
-										<span class="medium-font oswald">Creativity</span>
-
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div>
-										<span class="big-font oswald">81%</span>
-										<span  class="medium-font oswald">Comm Skills</span>
-
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div>
-										<span class="big-font oswald">94%</span>
-										<span class="medium-font oswald">Analytic SKills</span>
-
-									</div>
-								</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right-align">
+								<h1>Education</h1>
 							</div>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h4>Professional Skills</h4> 
-								</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pull-right">
+								<h1>Experience</h1>
 							</div>
-							<div class="row text-center">
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div>
-										<span class="big-font oswald">77%</span>
-										<span class="medium-font oswald">Backend</span>
-
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div>
-										<span class="big-font oswald">76%</span>
-										<span class="medium-font oswald">Frontend</span>
-
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div>
-										<span class="big-font oswald">74%</span>
-										<span  class="medium-font oswald">UX/UI</span>
-
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-									<div>
-										<span class="big-font oswald">62%</span>
-										<span class="medium-font oswald">Mobile</span>
-
-									</div>
-								</div>
+						</div>
+						<article>
+							<div class="inner">
+								<span class="date">
+									<span class="month">2011</span>
+								</span>
+								<h2>Knust</h2>
+								<p>Admission into Kwame Nkrumah University of Science an Technology</p>
 							</div>
-						</section>
-						<!-- skills ends -->
-
-
-						<!-- interests st/arts -->
-						<section>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h1>Interests</h1>
-								</div>
+						</article>
+						<article>
+							<div class="inner">
+								<span class="date">
+									<span class="month">2012</span>
+								</span>
+								<h2>Archerochy</h2>
+								<p>Graphic Designer</p>
 							</div>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 interests">
-									<ul class="tags">
-										<li><a href="#" class="tag">Technology</a></li>
-										<li><a href="#" class="tag">Cars</a></li>
-										<li><a href="#" class="tag">Computers</a></li>
-										<li><a href="#" class="tag">Soccer</a></li>
-										<li><a href="#" class="tag">Programming</a></li>
-										<li><a href="#" class="tag">Reading</a></li>
-										<li><a href="#" class="tag">Swimming</a></li>
-										<li><a href="#" class="tag">Embedded System</a></li>
-									</ul>
-								</div>
+						</article>
+						<article>
+							<div class="inner pull-right">
+								<span class="date">
+									<span class="month">2013</span>
+								</span>
+								<h2 class="da">BuyChaw</h2>
+								<p>Co-Founder, CEO and Lead Developer of a campus based classifieds website</p>
 							</div>
-						</section>
-						<!-- interests end -->
-
-
-						<!-- backgrounds starts -->
-						<section>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h1>Background</h1>
-								</div>
+						</article>
+						<article>
+							<div class="inner">
+								<span class="date">
+									<span class="month">2014</span>
+								</span>
+								<h2>Chanl</h2>
+								<p>Co-founder of group messaging app</p>
 							</div>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-										<h4>Education</h4>
-										<ul>
-											<div class="row">
-												<li>
-													<span>2011</span><span>KNUST</span>	
-												</li>
-												<li>
-													<span>2015</span><span>MEST</span>	
-												</li>
-											</div>
-										</ul>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-										<h4>Experience</h4>
-										<ul>
-											<div class="row">
-												<li>
-													<span>2012</span><span>Archerochy</span>
-												</li>
-												<li>
-													<span>2013</span><span>BuyChaw</span>	
-												</li>
-												<li>
-													<span>2014</span><span>Chanl</span>	
-												</li>
-											</div>
-										</ul>
-									</div>
-								</div>
+						</article>
+						<article>
+							<div class="inner">
+								<span class="date">
+									<span class="month">2015</span>
+								</span>
+								<h2>Mest</h2>
+								<p>Admission into Meltwater entrepreneural School of Technology</p>
 							</div>
-						</section>
-						<!-- backgrounds ends -->
+						</article>
+					</section>
 
+					<!-- projects starts -->
 
-						<!-- projects starts -->
-						<section>
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<h1>Projects</h1>
-								</div>
-								<div class="row text-center">
-									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box">
-										Chanl
-									</div>
-									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box">
-										eCampus
-									</div>
-									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box">
-										blu
-									</div>
-									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box">
-										Archerochy
-									</div>
-									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box">
-										BuyChaw
-									</div>
-									<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box">
-										CodeJam
-									</div>
-								</div>
+					<section class="top-border">
+						<div class='row'>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<h1>Projects</h1>
 							</div>
-						</section>
+						</div>
+						<div class='row .container_prg'>
+							<ul>
+								<li class="prj">
+									<a class='normal' href='#'>
+										<img class="prj-pic" src="img/chanl.jpg">
+									</a>
+									<div class='info'>
+										<h3>Chanl</h3>
+										<p>A messaging app for groups with a focus on the main topic of a conversation</p>
+									</div>
+								</li>
+								<li class="prj">
+									<a class='normal' href='#'>
+										<img class="prj-pic" src="img/ecampus.jpg">
+									</a>
+									<div class='info'>
+										<h3>eCampus</h3>
+										<p>An elearning platform for primary and jhs individuals</p>
+									</div>
+								</li>
+								<li class="prj">
+									<a class='normal' href='#'>
+										<img class="prj-pic" src="img/blu.jpg">
+									</a>
+									<div class='info'>
+										<h3>blu</h3>
+										<p>A 4g internet service provider</p>
+									</div>
+								</li>
+								<li class="prj">
+									<a class='normal' href='#'>
+										<img class="prj-pic" src="img/scratchapp.jpg">
+									</a>
+									<div class='info'>
+										<h3>ScracthApp</h3>
+										<p>An simpler way of loading credit by taking a pic of the digits with your camera</p>
+									</div>
+								</li> 
+								<li class="prj">
+									<a class='normal' href='#'>
+										<img class="prj-pic" src="img/buychaw.jpg">
+									</a>
+									<div class='info'>
+										<h3>BuyChaw</h3>
+										<p>An ecomerce site for campuses</p>
+									</div>
+								</li>
+								<li class="prj">
+									<a class='normal' href='#'>
+										<img class="prj-pic" src="img/codejam.jpg">
+									</a>
+									<div class='info'>
+										<h3>Codejam</h3>
+										<p>A Round A qulifier at Google Code Jam</p>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+
+
+
+					</section>
 
 
 
 
-						<!-- projects end -->
+					<!-- projects end -->
 
-						<footer>
-							<div class="row">
-								<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
+					<footer>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-sm-12">
 								<h4>Contact Me</h4>
-								</div>
 							</div>
-							<div class="row">
-								<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
-								<textarea></textarea>
-
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
-								<ul>
-									<li>Linked in</li>
-									<li>Facebook</li>
-									<li>Twitter</li>
-									<li>Github</li>
-								</ul>
-
-								</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-sm-12">
+								<form>      
+									<input name="name" type="text" class="feedback-input" placeholder="Name" />   
+									<input name="email" type="text" class="feedback-input" placeholder="Email" />
+									<textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+									<input type="submit" value="SUBMIT"/>
+								</form>
 							</div>
-							
-						</footer>
-					</div>
+						</div>
 
-
-
+					</footer>
 				</div>
+
+
+
 			</div>
-
-
-
 		</div>
 
-			<div class="navigation">
-			<div class="v-center">
-							<div class="row">
-								<a href="#" class="nav-section">
-									<img data-toggle="tooltip" data-placement="left" title="Tooltip on left" class="img-responsive" src="img/section.png">
-								</a>
-							</div>
-							<div class="row">
-								<a href="#" class="nav-section">
-									<img class="img-responsive" src="img/section.png">
-								</a>
-							</div>
-							<div class="row">
-								<a href="#" class="nav-section">
-									<img class="img-responsive" src="img/section.png">
-								</a>
-							</div>
-							<div class="row">
-								<a href="#" class="nav-section">
-									<img class="img-responsive" src="img/section.png">
-								</a>
-							</div>
-							<div class="row">
-								<a href="#" class="nav-section">
-									<img class="img-responsive" src="img/section.png">
-								</a>
-							</div>							
-							</div>
-								
-		
+
+
+	</div>
+
+	<div class="navigation">
+		<div class="v-center">
+			<div class="row">
+				<a href="#" class="nav-section">
+					<span class="hint--left" data-hint="Profile">
+						<img class="img-responsive" src="img/section.png">
+					</span>
+				</a>
+			</div>
+			<div class="row">
+				<a href="#" class="nav-section">
+					<span class="hint--left" data-hint="Skills">
+						<img class="img-responsive" src="img/section.png">
+					</span>
+				</a>
+			</div>
+			<div class="row">
+				<a href="#" class="nav-section">
+					<span class="hint--left" data-hint="Interests">
+						<img class="img-responsive" src="img/section.png">
+					</span>
+				</a>
+			</div>
+			<div class="row">
+				<a href="#" class="nav-section">
+					<span class="hint--left" data-hint="Background">
+						<img class="img-responsive" src="img/section.png">
+					</span>
+				</a>
+			</div>
+			<div class="row">
+				<a href="#" class="nav-section">
+					<span class="hint--left" data-hint="Projects">
+						<img class="img-responsive" src="img/section.png">
+					</span>
+				</a>
+			</div>
+			<div class="row">
+				<a href="#" class="nav-section">
+					<span class="hint--left" data-hint="Contact Me">
+						<img class="img-responsive" src="img/section.png">
+					</span>
+				</a>
+			</div>							
 		</div>
-	</body>
-	</html>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>

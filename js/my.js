@@ -3,8 +3,8 @@
         $(".element").typed({
             strings: [
             "a geek",
-            "a tech lover",
-            "a romantic",
+            "a maker",
+            "a techie",
             "a lover",
             "a fighter",
             "a musician",
