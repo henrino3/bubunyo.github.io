@@ -1,0 +1,41 @@
+/*@import url(http://fonts.googleapis.com/css?family=Oxygen);
+html, body {
+  background: url(http://fazilsayfan.com/beta/images/squairy_light.png);
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}*/
+
+.tagCloud,
+.pagination {
+  /*width: 33.333%;*/
+  margin: 50px auto;
+}
+
+.tagCloud span,
+.pagination span {
+  color: #eaeaea;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 2.75;
+  padding: 10px 16px;
+  background: #c0392b;
+  margin: 3px;
+  font-size: 20px;
+  opacity: 1;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.tagCloud span:hover, .tagCloud span:active, .tagCloud span:focus,
+.pagination span:hover,
+.pagination span:active,
+.pagination span:focus {
+  opacity: 0.75;
+  background: #2980b9;
+}
+
+.text-right-align{
+  text-align: right;
+}
+
